@@ -16,10 +16,15 @@ Trabalho Final de Laboratório Programação de Computadores 1
  A entrada é constituída de vários casos de testes que são lidos em um arquivo cujo nome será informado por Jack Sparrow. A primeira linha do caso de teste contém dois números inteiros a e l que indicam a altura e a largura do mapa respectivamente em quilômetros. Para simplificar, cada ponto do mapa representa um quilômetro quadrado. As próximas a linhas contêm l caracteres, cada um descrevendo um quadrado no mapa. Cada ponto do mapa é um dos seguintes pontos: 
 
 •	@ O ponto onde Jack Sparrow começa a sua busca.
+
 •	~  Água. Os tesouros estão dentro de uma ilha e Jack Sparrow não consegue atravessar água dentro da ilha.
+
 •	#  Grupos rochosos e de despenhadeiros que Jack Sparrow não consegue atravessar.
+
 •	.  Terra firme, que pode ser facilmente atravessada.
+
 •	*  Local onde habitam canibais. O Jack Sparrow deve ficar a pelo menos um quadrado de distância dos canibais para não correr o risco de ser capturado por eles. Note que ficar a um quadrado de distância inclui as diagonais.
+
 •	!  Indica um tesouro. Jack Sparrow só sairá da ilha após pegar todos os tesouros escondidos.
 
 O pirata Jack Sparrow consegue andar apenas nas quatro direções cardeais, ou seja, ele não consegue andar nas diagonais. Cada movimento corresponde a uma hora.
